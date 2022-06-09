@@ -1,9 +1,37 @@
-- 👋 Hi, I’m @crucian-afk
-- 👀 I’m interested in Frontend and some Backend delevopment
-- 🌱 I’m currently learning start of Advanced JavaScript course
-- 💞️ I’m looking to collaborate on Frontend
-- 📫 How to reach me: tg @crucianiso
+```javascript
+const this: AboutMe = {
+  name: 'Yuriy',
+  age: 29,
+  experienceInMonth: {
+    commercial: 0,
+    nonCommercial: 14,
+  },
+  technologies: {
+    Javascript: {
+      vanilla: 'advanced',
+      react: 'medium',
+      other: ['react-router', 'redux', 'ant-design'],
+    },
+    Typescript: 'beginner',
+    Markup: ['HTML5', 'CSS3', 'Adaptive', 'Responsive', 'a11y', 'scss', 'gulp'],
+  },  
+}
 
-<!---
-crucian-afk/crucian-afk is a ✨ special ✨ repository because its necessary according to instructions
---->
+type AboutMe = {
+  name: string,
+  age: number,
+  experienceInMonth: {
+    commercial: number,
+    nonCommercial: number,
+  },
+  technologies: {
+    Javascript: {
+      vanilla: string,
+      react: string,
+      other: string[],
+    },
+    Typescript: string,
+    Markup: string[],
+  },  
+}
+```
