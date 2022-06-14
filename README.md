@@ -1,7 +1,6 @@
 ```javascript
 const this: AboutMe = {
-  name: 'Yuriy',
-  age: 29,
+  name: 'Yuriy',  
   experienceInMonth: {
     commercial: 0,
     nonCommercial: 14,
