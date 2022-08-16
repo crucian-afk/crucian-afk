@@ -3,7 +3,7 @@ const this: AboutMe = {
   name: 'Yuriy',  
   experienceInMonth: {
     commercial: 0,
-    nonCommercial: 14,
+    nonCommercial: 17,
   },
   technologies: {
     Javascript: {
