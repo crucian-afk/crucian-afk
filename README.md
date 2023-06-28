@@ -2,35 +2,19 @@
 const this: AboutMe = {
   name: 'Yuriy',  
   experienceInMonth: {
-    commercial: 0,
+    commercial: 9,
     nonCommercial: 17,
   },
   technologies: {
     Javascript: {
-      vanilla: 'advanced',
+      vanilla: 'confident',
       react: 'medium',
-      other: ['react-router', 'redux', 'ant-design'],
+      next: 'intermediate',
+      nodeJS: 'intermediate',
+      typescript: 'intermediate',
+      other: ['redux', 'ant-design', 'webpack (manual config)', 'SPA', 'PWA'],
     },
-    Typescript: 'beginner',
-    Markup: ['HTML5', 'CSS3', 'Adaptive', 'Responsive', 'a11y', 'scss', 'gulp'],
-  },  
-}
-
-type AboutMe = {
-  name: string,
-  age: number,
-  experienceInMonth: {
-    commercial: number,
-    nonCommercial: number,
-  },
-  technologies: {
-    Javascript: {
-      vanilla: string,
-      react: string,
-      other: string[],
-    },
-    Typescript: string,
-    Markup: string[],
+    Markup: ['HTML5', 'CSS3', 'Adaptive', 'Responsive', 'a11y', 'css modules', 'scss', 'gulp'],
   },  
 }
 ```
