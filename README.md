@@ -12,9 +12,12 @@ const this: AboutMe = {
       next: 'intermediate',
       nodeJS: 'intermediate',
       typescript: 'intermediate',
-      other: ['redux', 'ant-design', 'webpack (manual config)', 'SPA', 'PWA'],
+      other: ['redux', 'ant-design', 'webpack (manual config)', 'SPA', 'PWA', 'Jira'],
     },
     Markup: ['HTML5', 'CSS3', 'Adaptive', 'Responsive', 'a11y', 'css modules', 'scss', 'gulp'],
+    Database: {
+      postgreSQL: 'beginner'
+    }
   },  
 }
 ```
