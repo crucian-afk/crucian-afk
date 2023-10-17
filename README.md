@@ -2,8 +2,8 @@
 const this: AboutMe = {
   name: 'Yuriy',  
   experienceInMonth: {
-    commercial: 9,
-    nonCommercial: 17,
+    commercial: 12,
+    nonCommercial: 20,
   },
   technologies: {
     Javascript: {
